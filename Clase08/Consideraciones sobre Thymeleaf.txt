@@ -1,0 +1,7 @@
+Consideraciones sobre Thymeleaf
+
+El @RestController mapea por defecto /api/*, mientras que @Controller mapea por defecto /.
+
+@GetMapping("/ruta")
+@ResponseBody  -> devuelve json -> no usar si mando a vista thymeleaf 
+
