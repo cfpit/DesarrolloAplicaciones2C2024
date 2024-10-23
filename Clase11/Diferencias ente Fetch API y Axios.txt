@@ -1,0 +1,33 @@
+Diferencias ente Fetch API y Axios
+
+Implementación:
+Fetch es una API nativa del navegador, integrada en el Browser Object Model.
+Axios es una biblioteca externa que debe instalarse y importarse.
+
+Uso básico:
+Fetch requiere manejar promesas y errores manualmente.
+Axios proporciona una interfaz más amigable con promesas y errores manejados automáticamente.
+
+Manejo de errores:
+Fetch requiere manejar errores manualmente con try/catch.
+Axios proporciona un método .catch() para manejar errores de manera más conveniente.
+
+Transformación automática de datos:
+Axios realiza transformaciones automáticas de JSON.
+Fetch requiere manualmente parsear JSON con .json().
+
+Interceptar solicitudes:
+Axios permite interceptar solicitudes fácilmente.
+Fetch no proporciona facilidades para interceptar solicitudes por defecto.
+
+Progresos:
+Axios soporta progresos de descarga.
+Fetch no soporta progresos de subida.
+
+Soporte de navegadores:
+Fetch tiene un soporte limitado a ciertas versiones de navegadores.
+Axios tiene un soporte más amplio y compatible con versiones antiguas de navegadores.
+
+Configuración:
+Axios permite una mayor flexibilidad en la configuración de solicitudes.
+Fetch tiene una sintaxis más restrictiva.
